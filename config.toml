@@ -1,9 +1,9 @@
 # Site settings
-baseurl = "http://wowruby.com"
+baseurl = "http://wowruby.com/"
 languageCode = "en-us"
-title = "wow ruby"
+title = "Wow Ruby"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "quanke"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -12,8 +12,8 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "quanke"
+	description = "我女儿的网站"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -27,10 +27,10 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**I'm Ruby**,crafted by [quanke](//quanke.name)."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
+		twitter = "quanke"
+		github = "quanke"
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
@@ -38,16 +38,16 @@ paginate = 10
 		linkedin = ""
 
 		copyright = [
-			"&copy; John Doe",
-			"Design: [HTML5 UP](//html5up.net)",
+			"&copy; quanke",
+			"Design: [quanke](//quanke.name)",
 			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "我是ruby."
+		content = "这是我的个人介绍."
 
 
 	[params.portfolio]
@@ -94,7 +94,7 @@ paginate = 10
 
 
 	[params.contact]
-		hide  = false
+		hide  = true
 		title = "Get In Touch"
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
